@@ -1,0 +1,13 @@
+version: '2'
+services:
+     redis:
+        image: redis:2.8
+        ports:
+           - "6379:6379"
+     angular:
+        build: ./angular9
+        ports:
+           - "4200:4200"
+        volumes: 
+           - ./angular9:/usr/src/app 
+        command: bash -c "npm install && ng serve --host 0.0.0.0 --port 4200"
