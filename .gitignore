@@ -2,3 +2,12 @@
 /bin
 /lib
 pyvenv.cfg
+.DS_Store
+.Python
+._.DS_Store
+/first/.DS_Store
+/first/._.DS_Store
+/first/.idea
+/first/.vscode
+/elastic_docker/angular9/node_modules
+/elastic_docker/node_modules
