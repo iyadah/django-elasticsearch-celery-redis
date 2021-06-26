@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'first.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'newone',
-        'USER': 'postgres',
-        'PASSWORD':'postgres',
-        'HOST':'localhost',
-        'PORT':'5432',
+        'NAME': 'postgresdb',
+        'USER': 'postgresadmin',
+        'PASSWORD':'admin123',
+        'HOST':'192.168.64.2',
+        'PORT':'30000',
     },
 
     'sqlite': {
